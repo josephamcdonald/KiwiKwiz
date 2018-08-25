@@ -1,0 +1,188 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Color and text attributes used throughout. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/colorPrimaryLight</item>
+        <item name="android:fontFamily">@font/fira_sans</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textColorLink">@color/colorPrimaryDark</item>
+    </style>
+
+   <!-- Main activity layout with image. -->
+    <style name="main_image">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginBottom">@dimen/standard_16dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- Main activity layout with image for landcscape. -->
+    <style name="main_image_land">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginBottom">@dimen/standard_16dp</item>
+        <item name="android:layout_marginRight">@dimen/standard_16dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- App main title. -->
+    <style name="main_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/fira_sans_bold</item>
+        <item name="android:textSize">@dimen/text_48sp</item>
+    </style>
+
+    <!-- App main title for landcscape. -->
+    <style name="main_title_land" parent="main_title">
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <!-- App main welcome message. -->
+    <style name="main_welcome" parent="main_title">
+        <item name="android:textSize">@dimen/text_28sp</item>
+    </style>
+
+    <!-- App main welcome for landcscape. -->
+    <style name="main_welcome_land" parent="main_title">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_marginLeft">@dimen/standard_16dp</item>
+        <item name="android:textSize">@dimen/text_28sp</item>
+    </style>
+
+    <!-- Main layout used throughout. -->
+    <style name="layout_main">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/standard_16dp</item>
+    </style>
+
+    <!-- Progress bar used throughout. -->
+    <style name="progress_bar" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/standard_16dp</item>
+        <item name="android:max">100</item>
+        <item name="android:progress">0</item>
+        <item name="android:progressTint" tools:ignore="NewApi">@color/colorAccent</item>
+    </style>
+
+    <!-- Standard header used throughout. -->
+    <style name="header_standard">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/standard_16dp</item>
+        <item name="android:fontFamily">@font/fira_sans_bold</item>
+        <item name="android:textSize">@dimen/text_28sp</item>
+    </style>
+
+    <!-- Standard text used throughout. -->
+    <style name="text_standard">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/standard_16dp</item>
+        <item name="android:textSize">@dimen/text_28sp</item>
+    </style>
+
+    <!-- Standard image used throughout. -->
+    <style name="image_standard">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/standard_16dp</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <!-- Vertical linear layout used throughout. -->
+    <style name="layout_linear_vertical">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/small_4dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Horizontal linear layout. -->
+    <style name="layout_linear_horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/standard_16dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- ScrollView layout. Note: scrollbar viewable for 15 seconds. -->
+    <style name="layout_scrollview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:fillViewport">true</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">15000</item>
+    </style>
+
+    <!-- Summary activity banner. -->
+    <style name="banner_summary">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:fontFamily">@font/fira_sans_bold</item>
+        <item name="android:textSize">@dimen/text_28sp</item>
+    </style>
+
+    <!-- Summary activity images. -->
+    <style name="image_summary">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginTop">@dimen/standard_16dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- ScrollView layout used with images. Note: scrollbar viewable for 15 seconds. -->
+    <style name="image_scrollview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/standard_16dp</item>
+        <item name="android:layout_marginBottom">@dimen/standard_16dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">15000</item>
+    </style>
+
+    <!-- Layout for RadioButtons and CheckBoxes used throughout. -->
+    <style name="layout_radio_button_checkbox">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/standard_16dp</item>
+        <item name="android:layout_marginLeft">@dimen/standard_16dp</item>
+        <item name="android:textSize">@dimen/text_28sp</item>
+    </style>
+
+    <!-- Functional bottom button used throughout. -->
+    <style name="button_bottom">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/standard_16dp</item>
+        <item name="android:background">@drawable/button_black</item>
+        <item name="android:textColor">@color/colorPrimaryLight</item>
+        <item name="android:textSize">@dimen/text_36sp</item>
+    </style>
+
+    <!-- Summary activity share button. -->
+    <style name="button_share">
+        <item name="android:layout_width">@dimen/button_share_36dp</item>
+        <item name="android:layout_height">@dimen/button_share_36dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/small_4dp</item>
+        <item name="android:background">@drawable/ic_share_black</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <!-- Horizontal divider view used throughout. -->
+    <style name="view_divider_horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+</resources>

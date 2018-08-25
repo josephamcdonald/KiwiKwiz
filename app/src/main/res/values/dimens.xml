@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Margins and padding in dp -->
+    <dimen name="button_share_36dp">36dp</dimen>
+    <dimen name="standard_16dp">16dp</dimen>
+    <dimen name="small_4dp">4dp</dimen>
+
+    <!-- Text sizes in sp -->
+    <dimen name="text_28sp">28sp</dimen>
+    <dimen name="text_36sp">36sp</dimen>
+    <dimen name="text_48sp">48sp</dimen>
+</resources>

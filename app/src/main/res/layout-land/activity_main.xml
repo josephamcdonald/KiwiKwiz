@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Grow With Google Challenge Scholarship: Android Basics
+     Project: 3
+     Version: 2.0
+     App Name: Quizzy - the Kiwi Kwiz
+     Author: Joseph McDonald -->
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/standard_16dp">
+
+    <ImageView
+        android:id="@+id/main_image"
+        style="@style/main_image_land"
+        android:contentDescription="@string/image_nz_fern"
+        android:src="@drawable/fern_nz"
+        app:layout_constraintBottom_toTopOf="@+id/button_bottom"
+        app:layout_constraintEnd_toStartOf="@+id/main_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/main_title"
+        style="@style/main_title_land"
+        android:text="@string/title"
+        app:layout_constraintBottom_toTopOf="@+id/main_welcome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/main_welcome"
+        style="@style/main_welcome_land"
+        android:text="@string/welcome"
+        app:layout_constraintBottom_toTopOf="@+id/button_bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/main_image"
+        app:layout_constraintTop_toBottomOf="@+id/main_title" />
+
+    <Button
+        android:id="@+id/button_bottom"
+        style="@style/button_bottom"
+        android:text="@string/button_start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

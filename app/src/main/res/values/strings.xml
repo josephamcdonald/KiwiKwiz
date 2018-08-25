@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Kiwi Kwiz</string>
+    <string name="title">the KIWI KWIZ</string>
+    <string name="welcome">How well do you know New Zealand? You have 20 seconds to attempt each question.</string>
+
+    <!-- All the banner messages. -->
+    <string name="banner_summary_well_done">"Well done. Press GET MY GRADE to view your "</string>
+    <string name="banner_summary_and">" and "</string>
+    <string name="banner_summary_answers">" answers."</string>
+    <string name="banner_summary_share">"Share your result. Press RESTART to try again."</string>
+
+    <!-- All the questions. -->
+    <string name="question_kiwi">Q: What is a \"kiwi?\" (Choose all that apply)</string>
+    <string name="question_nz_populous">Q: What is New Zealand\'s most populous city?</string>
+    <string name="question_haka">Q: What is \"haka?\" (Choose all that apply)</string>
+    <string name="question_nz_capital">Q: What is the capital city of New Zealand? (Choose one)</string>
+    <string name="question_nz_cricket">Q: What is the name of the New Zealand men\'s national cricket squad?</string>
+    <string name="question_nz_flag">Q: This is the flag of New Zealand. (TRUE or FALSE)</string>
+    <string name="question_nz_suffrage">Q: In which year did women in New Zealand obtain the right to vote?</string>
+
+    <!-- All the answers. -->
+    <string name="answer_kiwi">A: A \"kiwi\" is a bird and a fruit. It is also a playful term for \"New Zealanders\" and  the money they use. en.wikipedia.org/wiki/New_Zealanders</string>
+    <string name="answer_nz_populous">A: With a population of over 1.5M, Auckland is New Zealand\'s largest city. aucklandnz.com</string>
+    <string name="answer_haka">A: Haka is traditional Māori cultural dance. wikipedia.org/wiki/Haka\nIt is also performed by the New Zealand \"All Blacks\" before their rugby union matches. allblacks.com/Teams/Haka</string>
+    <string name="answer_nz_capital">A: Founded in 1865, Wellington is the capital city of New Zealand. wellingtonnz.com</string>
+    <string name="answer_nz_cricket">A: The \"BLACKCAPS\"\n(or \"BLACK CAPS.\") nzc.nz</string>
+    <string name="answer_nz_flag">A: FALSE. That was Australia\'s flag. New Zealand\'s flag is similar and is shown here. wikipedia.org/wiki/New_Zealand</string>
+    <string name="answer_nz_suffrage">A: 1893. On 19 Sept 1893, New Zealand became the first country in the world to grant women the vote. nzhistory.govt.nz/politics/womens-suffrage/</string>
+
+    <!-- All the radio buttons. -->
+    <string name="radio_hamilton" translatable="false">Hamilton</string>
+    <string name="radio_auckland" translatable="false">Auckland</string>
+    <string name="radio_wellington" translatable="false">Wellington</string>
+    <string name="radio_christchurch" translatable="false">Christchurch</string>
+    <string name="radio_1893" translatable="false">1893</string>
+    <string name="radio_1901" translatable="false">1901</string>
+    <string name="radio_1910" translatable="false">1910</string>
+    <string name="radio_1919" translatable="false">1919</string>
+    <string name="radio_1927" translatable="false">1927</string>
+    <string name="radio_true">true</string>
+    <string name="radio_false">false</string>
+
+    <!-- All the checkboxes. -->
+    <string name="checkbox_fruit">Fruit</string>
+    <string name="checkbox_vegetable">Vegetable</string>
+    <string name="checkbox_nz_money">New Zealand Dollar</string>
+    <string name="checkbox_bird">Bird</string>
+    <string name="checkbox_zealander">Resident of New Zealand</string>
+    <string name="checkbox_nz_delicacy">Popular New Zealand delicacy</string>
+    <string name="checkbox_dance">Cultural or ceremonial dance</string>
+    <string name="checkbox_nz_music">New Zealand folk music</string>
+    <string name="checkbox_rugby">Seen at rugby matches</string>
+
+    <!-- All the text entry strings. -->
+    <string name="hint_enter_here">"Enter here and press NEXT"</string>
+    <string name="answer_nz_populous_auckland" translatable="false">auckland</string>
+    <string name="answer_nz_cricket_blackcaps" translatable="false">blackcaps</string>
+    <string name="answer_nz_cricket_black_caps" translatable="false">black caps</string>
+
+    <!-- All the send result messages. -->
+    <string name="send_result_i_got">"Hey, I got "</string>
+    <string name="send_result_you_got">"You got "</string>
+    <string name="send_result_correct">" correct out of "</string>
+    <string name="send_result_on_the_quiz">" on the Kiwi Kwiz! "</string>
+
+    <!-- All the image descriptions. -->
+    <string name="image_nz_fern" translatable="false">nz silver fern</string>
+    <string name="image_australia_flag" translatable="false">australia flag</string>
+    <string name="image_kiwi_yay" translatable="false">kiwi_yay</string>
+    <string name="image_wellington" translatable="false">wellington</string>
+    <string name="image_haka" translatable="false">haka</string>
+    <string name="image_kiwi_bird" translatable="false">kiwi bird</string>
+    <string name="image_kiwi_fruit" translatable="false">kiwi fruit</string>
+    <string name="image_kiwi_peeps" translatable="false">kiwi peeps</string>
+    <string name="image_kiwi_money" translatable="false">kiwi money</string>
+    <string name="image_auckland" translatable="false">auckland</string>
+    <string name="image_nz_cricket" translatable="false">blackcaps</string>
+    <string name="image_nz_flag" translatable="false">new zealand flag</string>
+    <string name="image_nz_suffrage" translatable="false">new zealand suffrage</string>
+
+    <!-- All the toasts. -->
+    <string name="toast_backbutton_disabled">No turning back now.</string>
+    <string name="toast_correct">CORRECT</string>
+    <string name="toast_incorrect">INCORRECT</string>
+    <string name="toast_please_attempt">Please make an attempt.</string>
+    <string name="toast_time_expired">Time has expired.</string>
+    <string name="toast_result">Your result is\ </string>
+
+    <!-- All the button labels. -->
+    <string name="button_start">start</string>
+    <string name="button_next">next >></string>
+    <string name="button_get_grade">get my grade</string>
+    <string name="button_restart">restart</string>
+    <string name="button_share">share</string>
+
+    <!-- Font attributes. -->
+    <string name="font_green"><![CDATA[<font color=#388e3c>correct</font>]]></string>
+    <string name="font_red"><![CDATA[<font color=#d32f2f>incorrect</font>]]></string>
+    <string name="text_plain" translatable="false">text/plain</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Grow With Google Challenge Scholarship: Android Basics
+     Project: 3
+     Version: 2.0
+     App Name: Quizzy - the Kiwi Kwiz
+     Author: Joseph McDonald -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/standard_16dp">
+
+    <ImageView
+        android:id="@+id/main_image"
+        style="@style/main_image"
+        android:contentDescription="@string/image_nz_fern"
+        android:src="@drawable/fern_nz" />
+
+    <TextView
+        android:id="@+id/main_title"
+        style="@style/main_title"
+        android:text="@string/title" />
+
+    <TextView
+        android:id="@+id/main_welcome"
+        style="@style/main_welcome"
+        android:text="@string/welcome" />
+
+    <Button
+        android:id="@+id/button_bottom"
+        style="@style/button_bottom"
+        android:text="@string/button_start" />
+
+</LinearLayout>

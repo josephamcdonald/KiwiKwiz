@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Grow With Google Challenge Scholarship: Android Basics
+     Project: 3
+     Version: 2.0
+     App Name: Quizzy - the Kiwi Kwiz
+     Author: Joseph McDonald -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/layout_main"
+    tools:context="com.example.android.kiwikwiz.PopulousCityActivity">
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="@style/progress_bar" />
+
+    <ScrollView style="@style/layout_scrollview">
+
+        <LinearLayout style="@style/layout_linear_vertical">
+
+            <TextView
+                style="@style/header_standard"
+                android:text="@string/question_nz_suffrage" />
+
+            <View
+                style="@style/view_divider_horizontal"
+                android:layout_marginBottom="@dimen/standard_16dp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radio_1893"
+                    style="@style/layout_radio_button_checkbox"
+                    android:text="@string/radio_1893" />
+
+                <RadioButton
+                    android:id="@+id/radio_1901"
+                    style="@style/layout_radio_button_checkbox"
+                    android:text="@string/radio_1901" />
+
+                <RadioButton
+                    android:id="@+id/radio_1910"
+                    style="@style/layout_radio_button_checkbox"
+                    android:text="@string/radio_1910" />
+
+                <RadioButton
+                    android:id="@+id/radio_1919"
+                    style="@style/layout_radio_button_checkbox"
+                    android:text="@string/radio_1919" />
+
+                <RadioButton
+                    android:id="@+id/radio_1927"
+                    style="@style/layout_radio_button_checkbox"
+                    android:text="@string/radio_1927" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <View style="@style/view_divider_horizontal" />
+
+    <Button
+        android:id="@+id/button_bottom"
+        style="@style/button_bottom"
+        android:text="@string/button_next" />
+
+</LinearLayout>

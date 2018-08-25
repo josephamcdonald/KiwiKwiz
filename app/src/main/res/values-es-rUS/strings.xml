@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kiwi Kwiz</string>
+    <string name="title">el KIWI KWIZ</string>
+    <string name="welcome">¿Qué tan bien conoces a Nueva Zelanda? Tienes 20 segundos para intentar cada pregunta.</string>
+
+    <string name="banner_summary_well_done">"Muy bien. Presione CALIFICACIÓN para ver su "</string>
+    <string name="banner_summary_and">" y "</string>
+    <string name="banner_summary_answers">" respuestas."</string>
+    <string name="banner_summary_share">Comparte tu resultado. Presione REINICIAR para intentar nuevamente.</string>
+
+    <string name="question_kiwi">P: ¿Qué es un \"kiwi?\" (Elija todos los que correspondan)</string>
+    <string name="question_nz_populous">P: ¿Cuál es la ciudad más poblada de Nueva Zelanda?</string>
+    <string name="question_haka">P: ¿Qué es \"haka\"? (Elija todos los que correspondan)</string>
+    <string name="question_nz_capital">P: ¿Cuál es la ciudad capital de Nueva Zelanda? (Elige uno)</string>
+    <string name="question_nz_cricket">P: ¿Cuál es el nombre del escuadrón nacional de cricket masculino de Nueva Zelanda?</string>
+    <string name="question_nz_flag">P: Esta es la bandera de Nueva Zelanda. (VERDADERO o FALSO)</string>
+    <string name="question_nz_suffrage">P: ¿En qué año obtuvieron las mujeres de Nueva Zelanda el derecho al voto?</string>
+
+    <string name="answer_kiwi">R: Un \"kiwi\" es un pájaro y una fruta. También es un término lúdico para los \"neozelandeses\" y el dinero que usan. en.wikipedia.org/wiki/New_Zealanders</string>
+    <string name="answer_nz_populous">R: Con una población de más de 1.5 millones, Auckland es la ciudad más grande de Nueva Zelanda. aucklandnz.com</string>
+    <string name="answer_haka">R: Haka es la danza cultural maorí tradicional. wikipedia.org/wiki/Haka\nTambién es realizado por Nueva Zelanda \"All Blacks\" antes de que coincida con su unión de rugby. allblacks.com/Teams/Haka</string>
+    <string name="answer_nz_capital">R: Fundada en 1865, Wellington es la capital de Nueva Zelanda. wellingtonnz.com</string>
+    <string name="answer_nz_cricket">R: El \"BLACKCAPS\"\n(o \"BLACK CAPS.\") nzc.nz</string>
+    <string name="answer_nz_flag">R: FALSO. Esa era la bandera de Australia. La bandera de Nueva Zelanda es similar y se muestra aquí. wikipedia.org/wiki/New_Zealand</string>
+    <string name="answer_nz_suffrage">R: 1893. El 19 de septiembre de 1893, Nueva Zelanda se convirtió en el primer país del mundo en otorgar el voto a las mujeres. nzhistory.govt.nz/politics/womens-suffrage</string>
+
+    <string name="radio_true">verdadero</string>
+    <string name="radio_false">falso</string>
+    <string name="checkbox_fruit">Fruta</string>
+    <string name="checkbox_vegetable">Vegetal</string>
+    <string name="checkbox_nz_money">Dolar de Nueva Zelanda</string>
+    <string name="checkbox_bird">Pájaro</string>
+    <string name="checkbox_zealander">Residente de Nueva Zelanda</string>
+    <string name="checkbox_nz_delicacy">Delicadeza popular de Nueva Zeland</string>
+    <string name="checkbox_dance">Danza cultural o ceremonial</string>
+    <string name="checkbox_nz_music">Música folclórica de Nueva Zelanda</string>
+    <string name="checkbox_rugby">Visto en partidos de rugby</string>
+
+    <string name="hint_enter_here">Responder y SIGUIENTE</string>
+    <string name="send_result_i_got">"Oye, tengo "</string>
+    <string name="send_result_you_got">"Tu tienes "</string>
+    <string name="send_result_correct">" correcto de "</string>
+    <string name="send_result_on_the_quiz">" en el Kiwi Kwiz! "</string>
+
+    <string name="toast_backbutton_disabled">Sin dar marcha atrás ahora.</string>
+    <string name="toast_correct">CORRECTO</string>
+    <string name="toast_incorrect">INCORRECTO</string>
+    <string name="toast_please_attempt">Por favor haz un intento.</string>
+    <string name="toast_time_expired">El tiempo ha expirado.</string>
+    <string name="toast_result">"Tu resultado es "</string>
+
+    <string name="button_start">comienzo</string>
+    <string name="button_next">siguiente >></string>
+    <string name="button_get_grade">calificación</string>
+    <string name="button_restart">reiniciar</string>
+    <string name="button_share">compartir</string>
+
+    <string name="font_green"><![CDATA[<font color=#388e3c>correcto</font>]]></string>
+    <string name="font_red"><![CDATA[<font color=#d32f2f>incorrecto</font>]]></string>
+</resources>

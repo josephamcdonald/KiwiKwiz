@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Grow With Google Challenge Scholarship: Android Basics
+     Project: 3
+     Version: 2.0
+     App Name: Quizzy - the Kiwi Kwiz
+     Author: Joseph McDonald -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/layout_main"
+    tools:context="com.example.android.kiwikwiz.HakaActivity">
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="@style/progress_bar" />
+
+    <ScrollView style="@style/layout_scrollview">
+
+        <LinearLayout style="@style/layout_linear_vertical">
+
+            <TextView
+                android:id="@+id/banner_question"
+                style="@style/header_standard"
+                android:text="@string/question_haka" />
+
+            <View
+                style="@style/view_divider_horizontal"
+                android:layout_marginBottom="@dimen/standard_16dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox_nz_delicacy"
+                style="@style/layout_radio_button_checkbox"
+                android:text="@string/checkbox_nz_delicacy" />
+
+            <CheckBox
+                android:id="@+id/checkBox_dance"
+                style="@style/layout_radio_button_checkbox"
+                android:text="@string/checkbox_dance" />
+
+            <CheckBox
+                android:id="@+id/checkBox_nz_music"
+                style="@style/layout_radio_button_checkbox"
+                android:text="@string/checkbox_nz_music" />
+
+            <CheckBox
+                android:id="@+id/checkBox_rugby"
+                style="@style/layout_radio_button_checkbox"
+                android:text="@string/checkbox_rugby" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <View style="@style/view_divider_horizontal" />
+
+    <Button
+        android:id="@+id/button_bottom"
+        style="@style/button_bottom"
+        android:text="@string/button_next" />
+
+</LinearLayout>
