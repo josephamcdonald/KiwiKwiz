@@ -84,7 +84,7 @@
     <string name="toast_incorrect">INCORRECT</string>
     <string name="toast_please_attempt">Please make an attempt.</string>
     <string name="toast_time_expired">Time has expired.</string>
-    <string name="toast_result">Your result is\ </string>
+    <string name="toast_result">"Your result is "</string>
 
     <!-- All the button labels. -->
     <string name="button_start">start</string>

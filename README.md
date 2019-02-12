@@ -10,9 +10,9 @@
 
 ## Built With
 
-Android Studio 3.1.4
+Android Studio 3.3.1
 
-Gradle 4.4
+Gradle 4.10.1
 
 API Level: 16. Android 4.1 (JELLY BEAN)
 
@@ -28,7 +28,7 @@ Joseph McDonald
 
 N/A
 
-## Extras 
+## Features 
 
 **Quizzy Engine Class**  For code efficiency, I created the QuizzyEngine.java class to house variables 
 and methods used by all question classes. For example, it contains methods for processing the correctness of question attempts and 
